@@ -3,43 +3,43 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-    font-family: "Lato", sans-serif;
-}
-
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
+    transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #50d6f4;
+    color: #f1f1f1;
 }
 
-.main {
-    margin-left: 160px;
-    font-size: 28px;
-    padding: 0px 10px;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
