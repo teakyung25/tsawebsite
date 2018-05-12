@@ -10,8 +10,9 @@ nav{
 }
 a{
   text-decoration: none;
-  font-size:2m;
-  padding: 6.36%;
+  font-size:2em;
+  padding: 6.659%;
+  height:100%;
   margin-right:-4px;
   text-align:center;
   background-color:black;
