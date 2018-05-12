@@ -1,4 +1,4 @@
-boby, html{
+body, html{
   margin:0;
   padding:0;
   width:100%;
@@ -11,8 +11,8 @@ nav{
 a{
   text-decoration: none;
   font-size:2m;
-  padding:25px;
-  margin:0;
+  padding: 6.36%;
+  margin-right:-4px;
   text-align:center;
   background-color:black;
 }
