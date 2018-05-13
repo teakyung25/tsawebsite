@@ -1,112 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cloud Computing</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="jquery.js"></script>
     <style>
-      nav{
-        padding: 0%;
+    @import url('https://fonts.googleapis.com/css?family=Raleway');
+      body, html{
+        margin:0;
+        padding:0;
+        width: 100%;
+        height: 100%;
       }
-      .container {
-       position: relative;
-       left: 0;
-       width: 100%;
-        text-align: center;
-        font-size: 18px;
+      nav, nav ul{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
       }
-      .centerleft {
-        left: 8.5%;
-        top: 47.5%;
-        position: absolute;
+      nav ul{
+          display: flex;
+          list-style: none;
+          text-align:center;
       }
-      
-      .centerlleft {
-        left: 27.5%;
-        top: 47.5%;
-        position: absolute;
+      li{
+        flex-basis: 20%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
       }
-      .center {
-        left: 48%;
-        top: 47.5%;
-        position: absolute;
+      nav li:nth-of-type(1){background-color: #29363B}
+      nav li:nth-of-type(1):hover{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Meltdown_with_text.svg);
       }
-      .centerrright {
-        left: 68%;
-        top: 47.5%;
-        position: absolute;
+      nav li:nth-of-type(2){background-color: #EA495F}
+      nav li:nth-of-type(2):hover{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IBM_Bluemix_logo.svg/356px-IBM_Bluemix_logo.svg.png);
       }
-      .centerright {
-        left: 87.5%;
-        top: 47.5%;
-        position: absolute;
-      }
-      body{
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      }
-      img{
-        margin-right: -4px;
+
+      nav li:nth-of-type(3){background-color: #F4837D}
+      nav li:nth-of-type(4){background-color: #FDCEA9}
+      nav li:nth-of-type(5){background-color: #99B998}
+      ul li a{
+          position: relative;
+          top: 48%;
+          text-decoration:none;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+          color:white;
       }
     </style>
   </head>
   <body>
-    <nav>
-      <img src="https://raw.githubusercontent.com/teakyung25/tsawebsite/master/blue4.PNG" height="100%" width="20%">
-      <script>
-var images1 = document.getElementsByTagName("img");
-for(var i = 0; i < images1.length; i++) {
-var image1 = images1[i];
-image1.onclick = function(event) {
-     window.location.href = "https://teakyung25.github.io/tsawebsite/Analysis/index.html";
-};
-}
-</script>
-        <div class="centerleft">Analysis</div>
-      <img src="https://github.com/teakyung25/tsawebsite/blob/master/navy.PNG?raw=true" height="100%" width="20%">
-        <script>
-var images2 = document.getElementsByTagName("img");
-for(var i = 0; i < images2.length; i++) {
-var image2 = images2[i];
-image2.onclick = function(event) {
-     window.location.href = "https://teakyung25.github.io/tsawebsite/Application/index.html";
-};
-}
-</script>
-        <div class="centerlleft">Applications</div>
-      <img src="https://github.com/teakyung25/tsawebsite/blob/master/blue1.PNG?raw=true" height="100%" width="20%">
-        <script>
-var images3 = document.getElementsByTagName("img");
-for(var i = 0; i < images3.length; i++) {
-var image3 = images3[i];
-image3.onclick = function(event) {
-     window.location.href = "https://teakyung25.github.io/tsawebsite/Location/index.html";
-};
-}
-</script>
-        <div class="center">Location</div>
-      <img src="https://github.com/teakyung25/tsawebsite/blob/master/blue3.PNG?raw=true" height="100%" width="20%">
-        <script>
-var images4 = document.getElementsByTagName("img");
-for(var i = 0; i < images4.length; i++) {
-var image4 = images4[i];
-image4.onclick = function(event) {
-     window.location.href = "https://teakyung25.github.io/tsawebsite/Services/SaaS/index.html";
-};
-}
-</script>
-        <div class="centerrright">Services</div>
-      <img src="https://github.com/teakyung25/tsawebsite/blob/master/blue2.PNG?raw=true" height="100%" width="20%">
-        <script>
-var images5 = document.getElementsByTagName("img");
-for(var i = 0; i < images5.length; i++) {
-var image5 = images5[i];
-image5.onclick = function(event) {
-     window.location.href = "https://teakyung25.github.io/tsawebsite/References/index.html";
-};
-}
-</script>
-        <div class="centerright">References</div>
-     </nav>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#" class="nav-item">Analysis</a></li>
+      <li><a href="#" class="nav-item2">Applications</a></li>
+      <li><a href="#" class="nav-item3">Services</a></li>
+      <li><a href="#" class="nav-item4">Location</a></li>
+      <li><a href="#" class="nav-item5">Requirements</a></li>
+    </ul>
+  </nav>
   </body>
 </html>
