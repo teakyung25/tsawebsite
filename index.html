@@ -48,14 +48,20 @@
       img{
         margin-right: -4px;
       }
-      a, img {
-        outline: none;
-      }
     </style>
   </head>
   <body>
     <nav>
-      <a href="https://teakyung25.github.io/tsawebsite/Analysis/index.html"><img src="https://raw.githubusercontent.com/teakyung25/tsawebsite/master/blue4.PNG" height="100%" width="20%"></a>
+      <img src="https://raw.githubusercontent.com/teakyung25/tsawebsite/master/blue4.PNG" height="100%" width="20%">
+      <script>
+var images = document.getElementsByTagName("img");
+for(var i = 0; i < images.length; i++) {
+var image = images[i];
+image.onclick = function(event) {
+     window.location.href = "https://teakyung25.github.io/tsawebsite/Analysis/index.html";
+};
+}
+</script>
         <div class="centerleft">Analysis</div>
       <a href="https://teakyung25.github.io/tsawebsite/Application/index.html"><img src="https://github.com/teakyung25/tsawebsite/blob/master/navy.PNG?raw=true" height="100%" width="20%"></a>
         <div class="centerlleft">Applications</div>
