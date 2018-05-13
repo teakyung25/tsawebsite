@@ -1,8 +1,4 @@
 $(document).ready(function(){ 
-
-	$( window ).load(function() {
-          $( '.video-element' ).get(0).play();
- });
 /*Turn on and off audio*/
    var clicked = true;
     $(".line-c").click( function() {
