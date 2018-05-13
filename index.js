@@ -1,4 +1,5 @@
-  /*Turn on and off audio*/
+$(document).ready(function(){ 
+/*Turn on and off audio*/
    var clicked = true;
     $(".line-c").click( function() {
   		 if (clicked) {
@@ -15,3 +16,5 @@
 	});
     
  });
+});
+
