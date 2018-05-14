@@ -1,0 +1,39 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-image:url(Charlie chaplin dictator.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+a{
+  padding:10px;
+  text-decoration:none;
+  font-family:"font-family: 'Raleway', sans-serif;";
+  color:white;
+  font-size:20px;
+}
+
+nav{
+  background-color: #102547;
+  padding:20px;
+}
+
+.content{
+  margin-top: 550px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  padding:30px;
+  background-color: #000000;
+  height:100%;
+}
+
+#text-style {
+ font-family: 'Raleway', sans-serif;
+ color: white;
+}
+
+.selected{
+ font-weight:bold;
+}
